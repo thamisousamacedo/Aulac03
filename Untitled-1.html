@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link Páginas</title>
+    <style>
+      .pagination {
+        display: flex;
+        list-style: none;
+        padding: 0;
+      }
+
+      .pagination li {
+        border: 1px solid #ccc;
+        padding: 10px 15px;
+        margin: 2px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #007bff;
+        text-align: center;
+      }
+
+      .pagination li.active {
+        background-color: #007bff;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Normal</p>
+    <ul class="pagination">
+      <li>«</li>
+      <li>1</li>
+      <li class="active">2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>»</li>
+    </ul>
+
+    <p>Quando passa o mouse</p>
+    <ul class="pagination">
+      <li>«</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>»</li>
+    </ul>
+  </body>
+</html>
